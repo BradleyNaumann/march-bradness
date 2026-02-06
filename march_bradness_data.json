@@ -1,0 +1,126 @@
+{
+  "team_members": [
+    "No Byes But Still the Best",
+    "Rick Ross Stores",
+    "Dashin' to the Dance",
+    "\"Make Money. Live Better.\"",
+    "A Pet Named Peeve",
+    "Williams College, Sonoma "
+  ],
+  "weekly_data": {
+    "2026-02-02": {
+      "No Byes But Still the Best": {
+        "Summit Registrants": 3,
+        "CoCo App Creation": 0,
+        "In-Person Meetings": 2,
+        "Hands On Labs": 0,
+        "CECs": 0,
+        "Implementation Starts": 1,
+        "New POCs Started": 0,
+        "Technical Wins": 1,
+        "Go-Lives": 0
+      },
+      "Rick Ross Stores": {
+        "Summit Registrants": 4,
+        "CoCo App Creation": 0,
+        "In-Person Meetings": 0,
+        "Hands On Labs": 0,
+        "CECs": 0,
+        "Implementation Starts": 0,
+        "New POCs Started": 2,
+        "Technical Wins": 0,
+        "Go-Lives": 0
+      },
+      "Dashin' to the Dance": {
+        "Summit Registrants": 2,
+        "CoCo App Creation": 0,
+        "In-Person Meetings": 2,
+        "Hands On Labs": 0,
+        "CECs": 0,
+        "Implementation Starts": 0,
+        "New POCs Started": 0,
+        "Technical Wins": 0,
+        "Go-Lives": 0
+      },
+      "\"Make Money. Live Better.\"": {
+        "Summit Registrants": 0,
+        "CoCo App Creation": 0,
+        "In-Person Meetings": 0,
+        "Hands On Labs": 1,
+        "CECs": 0,
+        "Implementation Starts": 0,
+        "New POCs Started": 0,
+        "Technical Wins": 0,
+        "Go-Lives": 1
+      },
+      "A Pet Named Peeve": {
+        "Summit Registrants": 0,
+        "CoCo App Creation": 2,
+        "In-Person Meetings": 0,
+        "Hands On Labs": 0,
+        "CECs": 2,
+        "Implementation Starts": 0,
+        "New POCs Started": 0,
+        "Technical Wins": 0,
+        "Go-Lives": 0
+      },
+      "Williams College, Sonoma ": {
+        "Summit Registrants": 0,
+        "CoCo App Creation": 0,
+        "In-Person Meetings": 2,
+        "Hands On Labs": 0,
+        "CECs": 0,
+        "Implementation Starts": 0,
+        "New POCs Started": 1,
+        "Technical Wins": 1,
+        "Go-Lives": 0
+      }
+    },
+    "2026-02-09": {
+      "No Byes But Still the Best": {
+        "Summit Registrants": 3,
+        "CoCo App Creation": 0,
+        "In-Person Meetings": 0,
+        "Hands On Labs": 0,
+        "CECs": 1,
+        "Implementation Starts": 0,
+        "New POCs Started": 0,
+        "Technical Wins": 0,
+        "Go-Lives": 0
+      },
+      "A Pet Named Peeve": {
+        "Summit Registrants": 0,
+        "CoCo App Creation": 0,
+        "In-Person Meetings": 0,
+        "Hands On Labs": 0,
+        "CECs": 0,
+        "Implementation Starts": 0,
+        "New POCs Started": 1,
+        "Technical Wins": 0,
+        "Go-Lives": 2
+      },
+      "Dashin' to the Dance": {
+        "Summit Registrants": 0,
+        "CoCo App Creation": 0,
+        "In-Person Meetings": 0,
+        "Hands On Labs": 0,
+        "CECs": 1,
+        "Implementation Starts": 1,
+        "New POCs Started": 1,
+        "Technical Wins": 1,
+        "Go-Lives": 0
+      },
+      "Williams College, Sonoma ": {
+        "Summit Registrants": 2,
+        "CoCo App Creation": 0,
+        "In-Person Meetings": 0,
+        "Hands On Labs": 1,
+        "CECs": 0,
+        "Implementation Starts": 0,
+        "New POCs Started": 0,
+        "Technical Wins": 0,
+        "Go-Lives": 0
+      }
+    }
+  }
+}
