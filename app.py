@@ -149,8 +149,35 @@ def get_all_weeks(data):
 
 
 st.session_state.setdefault("data", load_data())
+st.session_state.setdefault("music_playing", True)
 
 SNOWFLAKE_ICON_FILE = Path(__file__).parent / "snowflake_icon.png"
+
+music_col1, music_col2 = st.columns([10, 1])
+with music_col2:
+    music_toggle = st.toggle("🔊", value=st.session_state.music_playing, help="Toggle music")
+    if music_toggle != st.session_state.music_playing:
+        st.session_state.music_playing = music_toggle
+        st.rerun()
+
+youtube_video_id = "a9euMKtYLK0"
+autoplay = 1 if st.session_state.music_playing else 0
+mute_param = 0 if st.session_state.music_playing else 1
+
+st.markdown(
+    f"""
+    <iframe 
+        id="youtube-player"
+        width="0" 
+        height="0" 
+        src="https://www.youtube.com/embed/{youtube_video_id}?autoplay={autoplay}&mute={mute_param}&loop=1&playlist={youtube_video_id}&controls=0&showinfo=0&rel=0&enablejsapi=1"
+        frameborder="0" 
+        allow="autoplay; encrypted-media"
+        style="display: none;">
+    </iframe>
+    """,
+    unsafe_allow_html=True
+)
 
 if LOGO_FILE.exists():
     import base64
