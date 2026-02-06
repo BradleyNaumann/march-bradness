@@ -66,6 +66,7 @@ CATEGORIES = {
 
 DATA_FILE = Path(__file__).parent / "march_bradness_data.json"
 LOGO_FILE = Path(__file__).parent / "logo.png"
+BANG_SOUND_FILE = Path(__file__).parent / "MikeBreenBang.mp3"
 
 
 def load_data():
@@ -442,8 +443,24 @@ with tab2:
         if st.button("Save Points", type="primary", use_container_width=True):
             st.session_state.data["weekly_data"][week_key][selected_member] = new_values
             save_data(st.session_state.data)
+            st.session_state["play_bang"] = True
             st.success(f"Saved {weekly_total:,} points for {selected_member} (Week of {week_key})")
             st.rerun()
+        
+        if st.session_state.get("play_bang", False):
+            if BANG_SOUND_FILE.exists():
+                import base64
+                with open(BANG_SOUND_FILE, "rb") as f:
+                    bang_audio = base64.b64encode(f.read()).decode()
+                st.markdown(
+                    f"""
+                    <audio autoplay>
+                        <source src="data:audio/mp3;base64,{bang_audio}" type="audio/mp3">
+                    </audio>
+                    """,
+                    unsafe_allow_html=True
+                )
+            st.session_state["play_bang"] = False
 
 with tab3:
     st.subheader("Team Members")
